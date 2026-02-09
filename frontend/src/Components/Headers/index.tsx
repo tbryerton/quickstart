@@ -44,7 +44,8 @@ const Header = () => {
               <li>Select "Plaidypusbank.herokuapp.com</li>
               <li>For creds enter: user_good / pass_good</li>
             </ol>
-          </p>
+          </p> 
+          
           {/* message if backend is not running and there is no link token */}
           {!backend ? (
             <Callout warning>
