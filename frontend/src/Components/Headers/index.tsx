@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <div className={styles.grid}>
-      <h3 className={styles.title}>Plaid Quickstart</h3>
+      <h3 className={styles.title}>Jack Henry POC with Plaid</h3>
 
       {!linkSuccess ? (
         <>
@@ -37,6 +37,13 @@ const Header = () => {
             launch Link - the client-side component that your users will
             interact with in order to link their accounts to Plaid and allow you
             to access their accounts via the Plaid API.
+          </p>
+          <p>
+            <ol>
+              <li>When prompted to search for a FI, enter "Plaid"</li>
+              <li>Select "Plaidypusbank.herokuapp.com</li>
+              <li>For creds enter: user_good / pass_good</li>
+            </ol>
           </p>
           {/* message if backend is not running and there is no link token */}
           {!backend ? (
